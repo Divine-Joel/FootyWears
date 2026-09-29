@@ -1,0 +1,81 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Get a free hosted Postgres database in seconds: `npx create-db`
+
+generator client {
+  provider = "prisma-client"
+  output   = "../app/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+model User {
+  id         Int         @id @default(autoincrement())
+  name       String
+  email      String      @unique
+  password   String
+  createdAt  DateTime    @default(now())
+  orders     Order[]
+  cartItems  CartItem[]
+  savedItems SavedItem[]
+    resetToken       String?
+  resetTokenExpiry DateTime?
+}
+model Order {
+  id        Int         @id @default(autoincrement())
+  user      User        @relation(fields: [userId], references: [id])
+  userId    Int
+  total     Int
+  status    String      @default("Processing")
+  createdAt DateTime    @default(now())
+  items     OrderItem[]
+  paystackRef String?     @unique
+  hidden      Boolean     @default(false)
+}
+
+model OrderItem {
+  id        Int    @id @default(autoincrement())
+  order     Order  @relation(fields: [orderId], references: [id])
+  orderId   Int
+  name      String
+  image     String
+  price     Int
+  quantity  Int
+  size      String?
+  color     String?
+}
+
+model CartItem {
+  id        Int      @id @default(autoincrement())
+  user      User     @relation(fields: [userId], references: [id])
+  userId    Int
+  productId Int
+  brand     String
+  category  String
+  name      String
+  image     String
+  price     Int
+  size      String   @default("")
+  color     String   @default("")
+  quantity  Int      @default(1)
+  createdAt DateTime @default(now())
+
+  @@unique([userId, productId, brand, category, size, color])
+}
+
+model SavedItem {
+  id        Int      @id @default(autoincrement())
+  user      User     @relation(fields: [userId], references: [id])
+  userId    Int
+  productId Int
+  brand     String
+  category  String
+  name      String
+  image     String
+  price     Int
+  createdAt DateTime @default(now())
+
+  @@unique([userId, productId, brand, category])
+}

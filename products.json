@@ -1,0 +1,229 @@
+{
+  "Nike": {
+    "boots": [
+      {
+        "id": 1,
+        "name": "Nike Jr. Mercurial Superfly 10 Academy",
+        "price": 15100,
+        "image": "/images/JR+ZM+SUPERFLY+10+ACAD+FGMG+SK.jpeg"
+      },
+      {
+        "id": 2,
+        "name": "Nike Zoom Mercurial Superfly 9 Elite",
+        "price": 41520,
+        "image": "/images/images (1).jpeg"
+      },
+      {
+        "id": 3,
+        "name": "Nike Vapor Elite 1",
+        "price": 33680,
+        "image": "/images/Nike Vapor Elite 1.jpeg"
+      },
+      {
+        "id": 4,
+        "name": "Nike Zoom Air Vapor Pro 1 - White",
+        "price": 35000,
+        "image": "/images/Nike Zoom Air Vapor Pro 1 - White.jpeg"
+      }
+    ],
+    "balls": [
+      {
+        "id": 1,
+        "name": "Nike Acadmey Plus",
+        "price": 45000,
+        "image": "/images/nike academy plus.jpeg"
+      },
+      {
+        "id": 2,
+        "name": "Premier League Academy",
+        "price": 37000,
+        "image": "/images/premier league academy.jpeg"
+      },
+      {
+        "id": 3,
+        "name": "Nike Academy 24/25",
+        "price": 50400,
+        "image": "/images/nk academy 24.jpeg"
+      },
+      {
+        "id": 4,
+        "name": "Premier League Ball 25/26",
+        "price": 75000,
+        "image": "/images/Premier League CLUB+ELITE.jpeg"
+      }
+    ],
+    "equipment": [
+      {
+        "id": 1,
+        "name": "Nike Shin Socks",
+        "price": 45000,
+        "image": "/images/NK+SHIN+SOCK+SLV.jpeg"
+      },
+      {
+        "id": 2,
+        "name": "Nike GK Match Jr HO24",
+        "price": 36000,
+        "image": "/images/NK+GK+MATCH+JR+-+HO24.jpeg"
+      },
+      {
+        "id": 3,
+        "name": "Nike Club Team Ball Bag",
+        "price": 40000,
+        "image": "/images/NK+CLUB+TEAM+BALL+BAG.jpeg"
+      },
+      {
+        "id": 4,
+        "name": "Nike Club Team Roll",
+        "price": 36000,
+        "image": "/images/NK+CLUB+TEAM+ROLL.jpeg"
+      }
+    ],
+    "outfit": [
+      {
+        "id": 1,
+        "name": "Nike Fleece Crew",
+        "price": 37000,
+        "image": "/images/nike sweatsuit.jpeg"
+      },
+      {
+        "id": 2,
+        "name": "NOCTA Fleece CS Hoodie",
+        "price": 54000,
+        "image": "/images/nike outfit.jpeg"
+      },
+      {
+        "id": 3,
+        "name": "Nike Hyperstrong tights",
+        "price": 32000,
+        "image": "/images/nike hyperstrong tights.jpeg"
+      },
+      {
+        "id": 4,
+        "name": "Nike DRI-FIT Club",
+        "price": 35000,
+        "image": "/images/nike dri-fit club.jpeg"
+      }
+    ]
+  },
+
+  "Adidas": {
+    "boots": [
+      {
+        "id": 1,
+        "name": "Adidas F50 Pink Football boot",
+        "price": 23000,
+        "image": "/images/images.jpeg"
+      },
+      {
+        "id": 2,
+        "name": "Adidas Predator Elite Tongue FG",
+        "price": 23000,
+        "image": "/images/images (2).jpeg"
+      },
+      {
+        "id": 3,
+        "name": "Adidas F50 sparkfusion league firm ground artificial grass boots",
+        "price": 21000,
+        "image": "/images/f50-sparkfusion-league-firm-ground-artificial-grass-boots.jpeg"
+      },
+      {
+        "id": 4,
+        "name": "Copa pure 3 club firm multi ground boot",
+        "price": 35000,
+        "image": "/images/copa-pure-3-club-firm-multi-ground-boots-kids.JPEG"
+      }
+    ],
+    "balls": [
+      {
+        "id": 1,
+        "name": "Real Madrid Home club ball",
+        "price": 35000,
+        "image": "/images/real-madrid-home-club-ball.jpg"
+      },
+      {
+        "id": 2,
+        "name": "UCL Group stage ball 25/26",
+        "price": 200000,
+        "image": "/images/ucl-league-25-26-league-stage-ball.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Man Utd Home Club ball ",
+        "price": 50000,
+        "image": "/images/manchester-united-home-club-ball.jpg"
+      },
+      {
+        "id": 4,
+        "name": "FIFA World Cup 2026 Competition Ball",
+        "price": 300000,
+        "image": "/images/fifa-world-cup-26-trionda-competition-ball.jpeg"
+      }
+    ],
+    "equipment": [
+      {
+        "id": 1,
+        "name": "Messi match shin guards kids",
+        "price": 5000,
+        "image": "/images/messi-match-shin-guards-kids.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Milano 23 socks",
+        "price": 4500,
+        "image": "/images/milano-23-socks.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Man Utd water bottle",
+        "price": 8000,
+        "image": "/images/manchester-united-water-bottle.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Tiro match shin guards kids",
+        "price": 18000,
+        "image": "/images/tiro-match-shin-guards-kids.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Predator training goalkeeper gloves kids",
+        "price": 20000,
+        "image": "/images/predator-training-goalkeeper-gloves-kids.jpg"
+      }
+    ],
+    "outfit": [
+      {
+        "id": 1,
+        "name": "Liverpool FC 25/26 Home jersey",
+        "price": 100000,
+        "image": "/images/liverpool-fc-25-26-home-jersey.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Arsenal thrid authentic jersey 25/26",
+        "price": 85000,
+        "image": "/images/arsenal-25-26-third-authentic-jersey.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Newcastle United FC home jersey 25/26",
+        "price": 37000,
+        "image": "/images/newcastle-united-fc-25-26-home-jersey.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Tiro league boot bag",
+        "price": 35000,
+        "image": "/images/tiro-league-boot-bag.jpeg"
+      },
+      {
+        "id": 5,
+        "name": "Tiro 23 Competition track top",
+        "price": 50000,
+        "image": "/images/tiro-23-competition-training-track-top.jpg"
+      }
+    ]
+  }
+  
+}
+
